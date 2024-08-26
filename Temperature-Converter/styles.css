@@ -1,0 +1,66 @@
+body 
+{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.converter-container 
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.converter-image 
+{
+    display: block;
+    margin: 10px auto;
+    width: 50px; 
+    height: auto;
+}
+.input-group 
+{
+    margin-bottom: 20px;
+}
+#temperatureInput 
+{
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#unitSelect 
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#convertButton 
+{
+    padding: 10px 20px;
+    background-color: rgb(197, 61, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#convertButton:hover 
+{
+    opacity: 0.9;
+}
+#convertButton:active
+{
+    opacity: 0.7;
+}
+#result 
+{
+    margin-top: 20px;
+    font-size: 1.2em;
+}
