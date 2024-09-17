@@ -1,3 +1,1 @@
-Project 1 : Landing Page
-Project 2 : Portfolio
-Project 3 : Temperature Converter
+This include the code of three webpages (Landing Page, Portfolio and Temperature Converter) I done as part of Oasis Infobyte Internship
